@@ -1,15 +1,14 @@
-# **App Agenda**
+# **App Troca de telas**
 
-> Aplicativo que cadastra e lista seus usuários.
+> Aplicativo que troca de telas.
 
 ## 📱 Descrição
 
-O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
+O **App Agenda** troca de telas.
 
 ## 🔧 Funcionalidades
 
-- [x] Entrada de dados (Nome, CPF e Telefone)
-- [x] Pesquisa de usuários
+- [x] Botões de trocade tela
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -17,8 +16,8 @@ O **App Agenda** solicita a entrada de dados e lista-os na tela principal.
 - [x] **Android Studio** (Koala | 2024.1.2)
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
-- [x] **TextView**, **EditText**, **ListView** para entrada e exibição de dados
-- [x] **Menu** para cadastrar e pesquisar usuário
+- [x] **TextView** para exibir informações
+- [x] **Button** para trocar de tela
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -73,15 +72,15 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
  
  ## 🖥️ Telas do Aplicativo
 
-1. **Tela Principal**
+## 1. Tela Principal
    
-   Tela principal do app, onde é possivel ver os cadastros e pesquisar por eles.
+   Tela um, com opão de acessar outra tela.
    
 ![Texto Alternativo](https://github.com/Kist19/TrocadeTelas/blob/master/telaprincipal_trocadetelas.jpg?raw=true)
 
-2. **Tela Cadastro**
+## 2. Tela Cadastro
    
-   Onde o cadastro é criado para ser apresentado na tela principal.
+   Tela dois, com opão de acessar outra tela.
    
 ![Texto Alternativo](https://github.com/Kist19/TrocadeTelas/blob/master/segundatela_trocadetelas.jpg?raw=true)
 
