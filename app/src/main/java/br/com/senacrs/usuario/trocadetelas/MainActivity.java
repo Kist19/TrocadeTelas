@@ -1,4 +1,5 @@
 package br.com.senacrs.usuario.trocadetelas;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.widget.*;
@@ -14,22 +15,26 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         CarregarTelaPrincipal();
     }
+
     public void CarregarTelaPrincipal() {
         setContentView(R.layout.activity_main);
         bttela2 = (Button) findViewById(R.id.btnTela2);
         bttela2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CarregarTela2(); } });
+                CarregarTela2();
+            }
+        });
     }
 
     public void CarregarTela2() {
         setContentView(R.layout.tela2);
-        bttelaprincipal = (Button) findViewById (R.id.btnTelaPrincipal);
+        bttelaprincipal = (Button) findViewById(R.id.btnTelaPrincipal);
         bttelaprincipal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 CarregarTelaPrincipal();
             }
         });
-    } }
+    }
+}
