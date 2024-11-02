@@ -1,10 +1,10 @@
 # **App Troca de telas**
 
-> Aplicativo que troca de telas.
+> Aplicativo que troca de tela.
 
 ## 📱 Descrição
 
-O **App Agenda** troca de telas.
+O **App Agenda** realiza a troca de telas atravez de botões.
 
 ## 🔧 Funcionalidades
 
@@ -39,30 +39,17 @@ Siga os passos abaixo para rodar o projeto localmente:
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │  ├── java/com/example/imccalculator
-│   │   │  │  ├── MainActivity.java # Atividade principal com cálculo do IMC
-│   │   │  ├──res
+│   │   │  ├── java/br/com/senacrs/usuario/trocadetelas
+│   │   │  │  ├── MainActivity.java          # Atividade principal com TrocadeTelas
+│   │   │  ├── res
 │   │   │  │   ├── layout
-│   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
-│   │   │  
-│   └── values
-
-
-│   │   │  
-│       ├──
-strings.xml         # Strings usadas no
-app
-
-
-│   │   │  
-│       ├── colors.xml          # Cores definidas no projeto
-
-
-│   └── build.gradle                        # Configuração do
-Gradle
-
-
-└── README.md                               # Este arquivo
+│   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │  │   │   ├── tela2.xml     
+│   │   │  │   └── values
+│   │   │  │       ├── strings.xml           # Strings usadas no app
+│   │   │  │       ├── colors.xml            # Cores definidas no projeto
+│   └── build.gradle                         # Configuração do Gradle
+└── README.md                                # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -72,13 +59,13 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
  
  ## 🖥️ Telas do Aplicativo
 
-## 1. Tela Principal
+## 1. Tela um
    
    Tela um, com opão de acessar outra tela.
    
 ![Texto Alternativo](https://github.com/Kist19/TrocadeTelas/blob/master/telaprincipal_trocadetelas.jpg?raw=true)
 
-## 2. Tela Cadastro
+## 2. Tela dois
    
    Tela dois, com opão de acessar outra tela.
    
